@@ -4,6 +4,7 @@ body	{
 	text-align: center;
 	color: seashell;
 	background-color: black;
+	opacity: 0.9;
 	margin: auto;
 	padding: 0
 
@@ -14,29 +15,43 @@ header	{
 	height: 69px;
 	margin: 0;
 	border-bottom: 1px solid seashell;
-	border:1px solid red;
 	display: flex;
 	align-items: center;
+	position: fixed;
+	width: 100%;
 }
 
 .logo	{
 	margin-left: 10px;
 	display: flex;
 	flex-grow: 1;
-	border: 1px solid green;
 }
 
-nav	{
-	border: 1px solid blue;
-	margin-right: 10px;
+nav span a	{
+	padding: 15px;
+	display: inline-block;
+	color: seashell;
+}
 
+main 	{
+	padding: 69px;
+	border: 1px solid red;
+}
+
+.mission	{
+	background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg) no-repeat center center;
+	height: 700px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .hero	{
-	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-	height: 700px;
+	background-color: black;
+	display: block;
 	width: 1200px;
-	margin: auto;
+	padding: 10px;
 
 }
 
@@ -49,24 +64,44 @@ nav	{
 .teas 	{
 	display: flex;
 	justify-content: center;
-	align-content: space-between;
 	flex-wrap: wrap;
 }
 
 .teas img {
 	height: 200px;
 	width: 300px;
-	border: 1px solid green;
 }
 
 .teas h4	{
-	border: 1px solid pink;
 	margin: 10px;
 }
 
+.locations	{
+	background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg) no-repeat center center;
+	margin: auto;
+	height: 500px;
+}
 
+.locations h2	{
+	padding-top: 60px;
+}
 
-footer p 	{
+.addresses	{
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	margin-top:15px;
+}
+
+.areas	{
+	background-color: black;
+	width: 300px;
+	margin: 0 20px;
+	padding: 20px;
+	opacity: 1;
+}
+
+h5.copyright	{
 	margin-left: 20px;
 	text-align: left;
 }
