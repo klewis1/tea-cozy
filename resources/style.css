@@ -34,8 +34,7 @@ nav span a	{
 }
 
 main 	{
-	padding: 69px;
-	border: 1px solid red;
+	padding-top: 69px;
 }
 
 .mission	{
@@ -65,15 +64,18 @@ main 	{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	margin: 15px;
 }
 
 .teas img {
 	height: 200px;
 	width: 300px;
+	margin: 0 10px 10px 10px;
 }
 
 .teas h4	{
-	margin: 10px;
+	margin:0 0 30px 0;
+
 }
 
 .locations	{
@@ -83,7 +85,8 @@ main 	{
 }
 
 .locations h2	{
-	padding-top: 60px;
+	padding-top: 100px;
+	margin: 0;
 }
 
 .addresses	{
@@ -99,6 +102,11 @@ main 	{
 	margin: 0 20px;
 	padding: 20px;
 	opacity: 1;
+	/*Not sure where exactly they wanted this opacity, or what it was supposed to do, visually it didn't cause anything to change*/
+}
+
+.contact	{
+	height: 200px;
 }
 
 h5.copyright	{
